@@ -1,0 +1,34 @@
+/*Обнуление стилей*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Базовфый макет*/
+#head{background-color: crimson;
+    height: 200px;
+}
+#footer{
+    background-color: aqua;
+
+}
+#content{
+    background-color: blueviolet;
+    width: 75%;
+    float: right;
+    padding: 5px;
+    width: 630px;
+}
+#sidebar{
+    background-color: greenyellow;
+    width: 20%;
+    float: left;
+}
+.wrap{
+    width: 800px;
+
+    margin: auto;
+}
+.clear{
+    clear: both;
+
+}
