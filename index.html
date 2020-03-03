@@ -3,23 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 <body>
 <div class="wrap">
-<!-- Блок загаловка-->
-<div id="head">Загаловок</div>
-<div id="sidebar">
-    <h2 class="green-text">колонка</h2>
-</div>
+    <!-- Блок загаловка-->
+    <div id="head"><h1><a href="index.html">газета destroyera</a></h1>
+    </div>
+    <div id="navigation">
+    <ul id="evg">
+        <li><a href="index.html">Каталог</a></li>
+        <li><a href="index.html">О компании</a></li>
+        <li><a href="index.html">Новости контакты</a></li>
+        <li><a href="index.html">Первая ссылка</a></li>
+    </ul>
+    </div>
+    <div id="sidebar">
+        <form method="post" action="https://proxy.kp87.ru/send-form.php">
+            <fieldset class="fl">
+                <legend>Подпишитесь на новсти</legend>
+                <label>Имя* <input required type="name" name="name" value="" placeholder="Введите имя"></label> </br>
+                <label>E-mail* <input required type="name" name="name" value="" placeholder="Введите имя"></label><br>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </div>
     <!-- Основной контент-->
-<div id="content">
-    <h1 class="green-text" border="2px">Основной контент</h1>
-    <h2 class="green-text">Основной контент</h2>
-    <h3 class="green-text">Основной контент</h3>
-   <h4>Основной контент</h4>
-</div>
+    <div id="content">
+        <h1 class="green-text" border="2px">Основной контент</h1>
+        <h2 class="green-text">Основной контент</h2>
+        <h3 class="green-text">Основной контент</h3>
+        <h4>Основной контент</h4>
+    </div>
     <div class="clear"></div>
-<div id="footer">Подвал</div>
+</div>
+<div id="footer">
+    <hr>
+    <p class="p">© 2020 Матвей Матвеев Матвеевич</p>
 </div>
 </body>
 </html>

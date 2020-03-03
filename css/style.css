@@ -1,34 +1,52 @@
 /*Обнуление стилей*/
-*{
+* {
     margin: 0;
     padding: 0;
 }
-/*Базовфый макет*/
-#head{background-color: crimson;
-    height: 200px;
-}
-#footer{
-    background-color: aqua;
 
+/*Базовфый макет*/
+#head {
 }
-#content{
+
+#footer {
+    margin: 10px 0 0 0;
+}
+
+#content {
     background-color: blueviolet;
-    width: 75%;
+    width: 79%;
     float: right;
     padding: 5px;
-    width: 630px;
+
 }
-#sidebar{
-    background-color: greenyellow;
+
+#sidebar {
     width: 20%;
     float: left;
 }
-.wrap{
-    width: 800px;
+
+.wrap {
+    width: 1300px;
 
     margin: auto;
 }
-.clear{
+
+.clear {
     clear: both;
 
+}
+
+.fl {
+    height: 100px;
+}
+
+p {
+    margin-left: 40px;
+}
+
+#navigation ul li{
+    display: inline;
+}
+#evg{
+    margin-left:300px;
 }
